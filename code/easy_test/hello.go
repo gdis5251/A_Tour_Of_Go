@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "runtime"
+) 
 
 func main() {
-
     fmt.Println("Hello World!")
+    fmt.Println(runtime.Version())
 }
