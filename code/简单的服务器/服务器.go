@@ -38,6 +38,6 @@ func main() {
 			fmt.Println("client said : ", string(buffer[:n]))
 		}
 
-		// 测试 goland 将代码提交到 github 上
+		// 测试 goland 将代码提交到 github 上...
 	}
 }
