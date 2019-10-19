@@ -9,7 +9,8 @@ import (
 func main() {
 	// 产生一个随机数
 	rand.Seed(time.Now().UnixNano()) // 设置一个随机种子
-	num := rand.Intn(100)
+	var num int
+	num = rand.Intn(100)
 
 	for true {
 	 	fmt.Printf("请输入一个 100 以内的数字：")
