@@ -21,24 +21,24 @@ func main() {
 	}
 
 	// 检查是否是同名文件
-	srcFileNmae := args[1]
-	destFileNanme := args[2]
-	if srcFileNmae == destFileNanme {
+	srcFileName := args[1]
+	destFileName := args[2]
+	if srcFileName == destFileName {
 		fmt.Println("文件同名，请重新运行程序并注意不要使用同名文件！")
 		return
 	}
 
 	// 打开 file1 文件
-	sF, openError := os.Open(srcFileNmae)
+	sF, openError := os.Open(srcFileName)
 	if openError != nil {
-		fmt.Println("打开 ", srcFileNmae, " 失败, error: ", openError)
+		fmt.Println("打开 ", srcFileName, " 失败, error: ", openError)
 		return
 	}
 
 	// 创建 file2 文件
-	dF, createError := os.Create(destFileNanme)
+	dF, createError := os.Create(destFileName)
 	if createError != nil {
-		fmt.Println("创建 ", destFileNanme, " 失败, error: ", createError)
+		fmt.Println("创建 ", destFileName, " 失败, error: ", createError)
 		return
 	}
 
