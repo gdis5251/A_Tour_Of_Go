@@ -62,6 +62,6 @@ func main() {
 	// 定义一个文件路径
 	path := "./文件操作/demo.txt"
 
-	// WriteFile(path)
-	ReadFile(path)
+	WriteFile(path)
+	// ReadFile(path)
 }
