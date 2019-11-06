@@ -12,6 +12,13 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+type student struct {
+	id   int
+	name string
+	sex  string
+	age  int
+}
+
 // 插入数据
 func insertInfo(DB *sql.DB) {
 	stmt, prepareErr := DB.Prepare("insert into students(name, sex, age) values(?, ?, ?)")
@@ -21,12 +28,13 @@ func insertInfo(DB *sql.DB) {
 	}
 
 	// 将信息写入数据库
-	result, execErr := stmt.Exec("Gerald", "male", 22)
+	result, execErr := stmt.Exec("apple", "female", 18)
 	if execErr != nil {
 		fmt.Println("exec error : ", execErr)
 		return
 	}
 
+	// 返回值 id 为，上面的操作，影响了几行
 	id, rowsAffectedErr := result.RowsAffected()
 	if rowsAffectedErr != nil {
 		fmt.Println("insert faild : ", rowsAffectedErr)
@@ -39,14 +47,14 @@ func insertInfo(DB *sql.DB) {
 // 更新数据
 func UpdateInfo(DB *sql.DB) {
 	// 先做准备
-	stmt, prepareErr := DB.Prepare("update students set name=? sex=? age=? where id=?")
+	stmt, prepareErr := DB.Prepare("update students set name=?, sex=?, age=? where id=?")
 	if prepareErr != nil {
 		fmt.Println("prepare update error : ", prepareErr)
 		return
 	}
 
 	// 再实际更新
-	result, execErr := stmt.Exec("二丫", "female", 16, 2)
+	result, execErr := stmt.Exec("lili", "female", 17, 3)
 	if execErr != nil {
 		fmt.Println("exec update error : ", execErr)
 		return
@@ -62,6 +70,69 @@ func UpdateInfo(DB *sql.DB) {
 	fmt.Println("affect row is ", id)
 }
 
+// 删除数据
+func DeleteInfo(DB *sql.DB) {
+	stmt, prepareErr := DB.Prepare("delete from students where id=? or id=?")
+	if prepareErr != nil {
+		fmt.Println("prepare delete failed, error : ", prepareErr)
+		return
+	}
+
+	result, execErr := stmt.Exec(2, 3)
+	if execErr != nil {
+		fmt.Println("delete failed, error : ", execErr)
+		return
+	}
+
+	id, affectedErr := result.RowsAffected()
+	if affectedErr != nil {
+		fmt.Println("get affected row failed, error : ", affectedErr)
+		return
+	}
+
+	fmt.Println("delete affect row is ", id)
+
+}
+
+// 单行查询
+func QueryOne(DB *sql.DB) {
+	student := new(student)
+	row := DB.QueryRow("select * from students where id=?", 1)
+	if scanErr := row.Scan(&student.id, &student.name, &student.sex, &student.age); scanErr != nil {
+		fmt.Println("scan error : ", scanErr)
+		return
+	}
+
+	fmt.Println(*student)
+}
+
+// 多行查询
+func QueryMutil(DB *sql.DB) {
+	student := new(student)
+	rows, queryErr := DB.Query("select * from students where id>?", 1)
+	// 写一个 defer 函数，如果最后 rows 没有显示完，就关闭 row
+	// 主要是 如果发生错误，就把已经加载进来的关闭掉，防止内存泄漏
+	defer func() {
+		if rows != nil {
+			rows.Close()
+		}
+	}()
+	// 错误检查
+	if queryErr != nil {
+		fmt.Println("query mutil failed, error : ", queryErr)
+		return
+	}
+
+	for rows.Next() {
+		if scanErr := rows.Scan(&student.id, &student.name, &student.sex, &student.age); scanErr != nil {
+			fmt.Println("scan failed, error : ", scanErr)
+			return
+		}
+
+		fmt.Println(*student)
+	}
+}
+
 func main() {
 	// 定义一组 const 变量，准备连接数据库
 	const (
@@ -71,8 +142,9 @@ func main() {
 		SERVER   string = "localhost"
 		PORT     int    = 3306
 		DATABASE string = "test"
+		CHARSET  string = "charset=utf8"
 	)
-	dsn := fmt.Sprintf("%s:%s@%s(%s:%d)/%s", USERNAME, PASSWORD, NETWORK, SERVER, PORT, DATABASE)
+	dsn := fmt.Sprintf("%s:%s@%s(%s:%d)/%s?%s", USERNAME, PASSWORD, NETWORK, SERVER, PORT, DATABASE, CHARSET)
 
 	// 连接数据库
 	DB, openErr := sql.Open("mysql", dsn)
@@ -82,5 +154,8 @@ func main() {
 	}
 
 	// insertInfo(DB)
-	UpdateInfo(DB)
+	// UpdateInfo(DB)
+	// DeleteInfo(DB)
+	// QueryOne(DB)
+	QueryMutil(DB)
 }
