@@ -1,11 +1,12 @@
 package main
 
-import (
-    "fmt"
-    "runtime"
-) 
+import "fmt"
+
+var Add = func(lhs int, rhs int) (result int) {
+	result = lhs + rhs
+	return
+}
 
 func main() {
-    fmt.Println("Hello World!")
-    fmt.Println(runtime.Version())
+	fmt.Println(Add(1, 2))
 }
