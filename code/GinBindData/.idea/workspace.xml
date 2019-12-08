@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b1ad302-723d-4cbb-a356-35fc3c65416d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="ProjectId" id="1Ugeo5wEnDs4rXUiBMk4Et2xHzW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build code.byted.org/kite/GinBindData (1)">
+    <configuration name="go build GinBindData" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="GinBindData" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="code.byted.org/kite/GinBindData" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code.byted.org/kite/GinBindData (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GinBindData" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bind_json.go" />
+      <package value="code.byted.org/kite/GinBindData" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code.byted.org/kite/GinBindData" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GinBindData" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/should_bind.go" />
+      <package value="code.byted.org/kite/GinBindData" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build GinBindData" />
+      <item itemvalue="Go Build.go build code.byted.org/kite/GinBindData" />
+      <item itemvalue="Go Build.go build code.byted.org/kite/GinBindData (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build code.byted.org/kite/GinBindData (1)" />
+        <item itemvalue="Go Build.go build code.byted.org/kite/GinBindData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575783277340">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575783277340" />
+    <state x="609" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1575783998081">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="184" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1575783998081" />
+    <state x="483" y="110" key="#go_build_GinBindData" timestamp="1575783644997">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="483" y="110" key="#go_build_GinBindData/0.0.1680.1050@0.0.1680.1050" timestamp="1575783644997" />
+    <state x="483" y="101" key="#go_build_code.byted.org/kite/GinBindData" timestamp="1575783654204">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="483" y="101" key="#go_build_code.byted.org/kite/GinBindData/0.0.1680.1050@0.0.1680.1050" timestamp="1575783654204" />
+    <state x="483" y="101" key="#go_build_code.byted.org/kite/GinBindData_(1)" timestamp="1575784287611">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="483" y="101" key="#go_build_code.byted.org/kite/GinBindData_(1)/0.0.1680.1050@0.0.1680.1050" timestamp="1575784287611" />
+    <state width="1628" height="282" key="GridCell.Tab.0.bottom" timestamp="1575784379071">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="282" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575784379071" />
+    <state width="1628" height="282" key="GridCell.Tab.0.center" timestamp="1575784379070">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="282" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575784379070" />
+    <state width="1628" height="282" key="GridCell.Tab.0.left" timestamp="1575784379066">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="282" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575784379066" />
+    <state width="1628" height="282" key="GridCell.Tab.0.right" timestamp="1575784379070">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="282" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575784379070" />
+    <state x="225" y="48" key="SettingsEditor" timestamp="1575802753457">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="225" y="48" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1575802753457" />
+  </component>
+</project>
