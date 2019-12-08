@@ -1,15 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bc4cc3e-e53f-4afa-9648-418a5a6c37a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Gin/GinRespFormat/byte_and_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Gin/GinRespFormat/json_format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/.idea/GinBindData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/.idea/GinBindData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/bind_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/bind_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/should_bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/should_bind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GinBindData/should_bind_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/GinBindData/should_bind_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/.idea/HelloGin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/.idea/HelloGin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/HelloGin/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/Gin/HelloGin/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/example/demo.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UhJXk44HbZ2EwI9TbxY9kQPAJK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/Gin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build A_Tour_Of_Go/code/Gin/GinRespFormat" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="A_Tour_Of_Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/code/Gin/GinRespFormat/json_format.go" />
+      <package value="A_Tour_Of_Go/code/Gin/GinRespFormat" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build A_Tour_Of_Go/code/Gin/GinRespFormat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[Gerald][write][2019/12/8] 在 mac 上学习 Golang 。先学习 Gin 框架。" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Gerald][write][2019/12/8] 在 mac 上学习 Golang 。先学习 Gin 框架。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="102" key="#go_build_A_Tour_Of_Go/code/Gin/GinRespFormat" timestamp="1575805778025">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="483" y="102" key="#go_build_A_Tour_Of_Go/code/Gin/GinRespFormat/0.0.1680.1050@0.0.1680.1050" timestamp="1575805778025" />
+    <state x="334" y="27" key="CommitChangelistDialog2" timestamp="1575803022125">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="334" y="27" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1575803022125" />
+    <state width="1628" height="281" key="GridCell.Tab.0.bottom" timestamp="1575806401491">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575806401491" />
+    <state width="1628" height="281" key="GridCell.Tab.0.center" timestamp="1575806401490">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575806401490" />
+    <state width="1628" height="281" key="GridCell.Tab.0.left" timestamp="1575806401489">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575806401489" />
+    <state width="1628" height="281" key="GridCell.Tab.0.right" timestamp="1575806401491">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575806401491" />
+    <state x="340" y="175" key="Vcs.Push.Dialog.v2" timestamp="1575803033672">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="340" y="175" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1575803033672" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1575805902801">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575805902801" />
   </component>
 </project>
